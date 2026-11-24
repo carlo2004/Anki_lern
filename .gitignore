@@ -1,0 +1,34 @@
+# Release artifacts and local development files.
+/outputs/
+/work/*
+!/work/fragevariator/
+!/work/tests/
+!/work/build_package.ps1
+!/work/verify_package.ps1
+!/work/Variator-AnkiWeb-Listing.md
+
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+*.log
+
+# Anki profile data, credentials and generated packages.
+user_files/
+collection.media/
+meta.json
+secrets.json
+live-consent.json
+.env
+.env.*
+*.key
+*.pem
+*.dpapi
+*.sqlite*
+*.db
+*.anki2*
+*.apkg
+*.colpkg
+*.ankiaddon
+*.bak

@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "ui_language": "auto",
+  "show_original_on_answer": true,
+  "provider": "openai",
+  "model": "gpt-6-luna",
+  "variant_count": 1,
+  "sent_card_count": 0,
+  "rewrite_intensity": "distinct",
+  "live_prefetch_enabled": false,
+  "live_prefetch_count": 3,
+  "live_consent_revoked_profiles": [],
+  "offline_prepare_count": 20,
+  "timeout_seconds": 90,
+  "max_retries": 2
+}
